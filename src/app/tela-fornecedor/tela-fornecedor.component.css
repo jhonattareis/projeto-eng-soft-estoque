@@ -1,0 +1,89 @@
+body {
+  border: solid black;
+  border-width: 2px;
+  border-radius: 10px;
+  background: #b8eeff;
+}
+
+input {
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+footer {
+  background: #95c4d3;
+  padding: 33px 10px;
+  margin: 147px 0px;
+  border-top: solid gray;
+  border-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-content: end;
+}
+
+.label-col-right {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 20px;
+  font-size: 30px;
+  width: 35%;
+}
+
+.label-col-left {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 20px;
+  font-size: 30px;
+  width: 30%;
+}
+
+.cont {
+  width: 90%;
+  height: 86%;
+  margin: auto;
+}
+
+.container {
+  padding: 100px 120px;
+}
+
+.toolbar {
+  color: black;
+  background: #95c4d3;
+  font-size: 55px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  display: block;
+}
+
+.btn {
+  background: white;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px 20px;
+  padding: 2px 25px;
+}
+
+.btn:hover {
+  background: rgb(223, 223, 223);
+}
+
+.btn-side {
+  display: inline-flex;
+  float: right;
+  padding: 65px 10px;
+}
+
+.label-col {
+  padding-right: 20px;
+}

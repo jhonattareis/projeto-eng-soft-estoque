@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produto</title>
+</head>
+
+<div class="cont">
+    <app-navbar-estoque></app-navbar-estoque>
+    <body class="tela">
+
+        <div class="toolbar">
+            <span>Pedido</span>
+        </div>
+
+        <div class="container-2">
+            <div class="row">
+                <div class="col">
+                    <label>id pedido</label>
+                    <input class="m-10">
+                </div>
+                <div class="col">
+                    <label>Lote</label>
+                    <input>
+                </div>
+                <div class="col status-div">
+                    <label for="">Status</label>
+                    <select ng-model="selectedStatus" class="status">
+                      <option value="1">Em Andamento</option>
+                      <option value="2">Estornado</option>
+                      <option value="3">Concluído</option>
+                    </select>
+                  </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label class="label-col">Descrição</label>
+                    <input class="input-desc">
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <span class="span-p">Produtos</span>
+        </div>
+        <div class="table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Descrição</th>
+                  <th>Quantidade</th>
+                  <th>Lote</th>
+                  <th>Valor</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of items">
+                  <td>{{item.id}}</td>
+                  <td>{{item.descricao}}</td>
+                  <td>{{item.quantidade}}</td>
+                  <td>{{item.lote}}</td>
+                  <td>R$ {{item.valor}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        <div>
+            <label for="" class="valorTotal">Valor total: </label>
+            <span class="valorToralspan">R$ 1950,00</span>
+        </div>
+        <div class="btn-side">
+            <button class="btn">Cadastrar</button>
+            <button class="btn">Cancelar</button>
+        </div>
+
+        <!-- <footer></footer> -->
+    </body>
+</div>
+</html>

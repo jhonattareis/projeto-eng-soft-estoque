@@ -1,0 +1,151 @@
+body {
+  border: solid black;
+  border-width: 2px;
+  border-radius: 10px;
+  background: #b8eeff;
+}
+
+label {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+input {
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+footer {
+  background: #95c4d3;
+  padding: 50px 10px;
+  border-top: solid gray;
+  border-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-content: end;
+}
+
+table {
+  width: 100%;
+}
+
+.cont {
+  width: 90%;
+  height: 86%;
+  margin: auto;
+}
+
+.input-desc {
+  width: 44%;
+}
+
+.container-2 {
+  padding: 70px 100px;
+}
+
+.toolbar {
+  color: black;
+  background: #95c4d3;
+  font-size: 60px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  display: block;
+}
+
+.btn {
+  background: white;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px 20px;
+  padding: 2px 25px;
+}
+
+.btn:hover {
+  background: rgb(223, 223, 223);
+}
+
+.btn-side {
+  display: inline-flex;
+  float: right;
+  margin-right: 40px;
+}
+
+.status {
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background: white;
+  width: 150px;
+  height: 35px;
+}
+
+.status-div {
+  display: flex;
+  align-items: end;
+}
+
+.example-container {
+  height: 400px;
+  width: 800px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.m-10 {
+  margin-left: 10px;
+}
+
+table {
+  border: solid black;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #95c4d3;
+  font-weight: bold;
+}
+
+table tr {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.span-p {
+  font-size: 30px;
+  margin-left: 7%;
+}
+
+.table {
+  margin-left: 7%;
+}
+
+.valorTotal {
+  font-weight: 500;
+  margin-left: 6%;
+}
+
+.valorToralspan {
+  font-size: 30px;
+}
