@@ -8,16 +8,16 @@
                     <li class="nav-meio p-20">
                         <a class="nav-link" href="2">Tabela produto</a>
                     </li>
-                    <li class="nav-meio p-20">
+                    <li class="nav-meio w-nav" [ngClass]="{'active': activeNavItem === 'pedido'}">
                         <a routerLink="/pedido" routerLinkActive="active" class="nav-link" href="3">Pedido</a>
                     </li>
-                    <li class="nav-meio p-20">
+                    <li class="nav-meio p-20" [ngClass]="{'active': activeNavItem === 'produto'}">
                         <a routerLink="/produto" routerLinkActive="active" class="nav-link" href="4">Produto</a>
                     </li>
-                    <li class="nav-meio p-20">
+                    <li class="nav-meio p-20" [ngClass]="{'active': activeNavItem === 'usuario'}">
                       <a routerLink="/usuario" routerLinkActive="active" class="nav-link" href="4">Usuário</a>
                     </li>
-                    <li class="nav-meio p-10">
+                    <li class="nav-meio p-10" [ngClass]="{'active': activeNavItem === 'fornecedor'}">
                       <a routerLink="/fornecedor" routerLinkActive="active" class="nav-link" href="4">Fornecedor</a>
                     </li>
                     <li class="nav-fim p-10">

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarEstoqueComponent {
 
+  activeNavItem: string = '';
+
+  setActiveNavItem(item: string): void {
+    this.activeNavItem = item;
+  }
 }
