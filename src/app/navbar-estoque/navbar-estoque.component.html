@@ -2,25 +2,25 @@
     <div class="container-fluid">
             <div class="collapse navbar-collapse body" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-inicio">
-                        <a class="nav-link" aria-current="page" href="1">Tabela pedido</a>
+                    <li class="nav-inicio" [ngClass]="{'active': activeNavItem === 'tabela-pedido'}">
+                        <a routerLink="/tabela-pedido" routerLinkActive="active" class="nav-link" aria-current="page" href="1">Tabela pedido</a>
                     </li>
-                    <li class="nav-meio p-20">
-                        <a class="nav-link" href="2">Tabela produto</a>
+                    <li class="nav-meio" [ngClass]="{'active': activeNavItem === 'tabela-produto'}">
+                        <a routerLink="/tabela-produto" routerLinkActive="active" class="nav-link" href="2">Tabela produto</a>
                     </li>
                     <li class="nav-meio w-nav" [ngClass]="{'active': activeNavItem === 'pedido'}">
                         <a routerLink="/pedido" routerLinkActive="active" class="nav-link" href="3">Pedido</a>
                     </li>
-                    <li class="nav-meio p-20" [ngClass]="{'active': activeNavItem === 'produto'}">
+                    <li class="nav-meio" [ngClass]="{'active': activeNavItem === 'produto'}">
                         <a routerLink="/produto" routerLinkActive="active" class="nav-link" href="4">Produto</a>
                     </li>
-                    <li class="nav-meio p-20" [ngClass]="{'active': activeNavItem === 'usuario'}">
+                    <li class="nav-meio" [ngClass]="{'active': activeNavItem === 'usuario'}">
                       <a routerLink="/usuario" routerLinkActive="active" class="nav-link" href="4">Usuário</a>
                     </li>
-                    <li class="nav-meio p-10" [ngClass]="{'active': activeNavItem === 'fornecedor'}">
-                      <a routerLink="/fornecedor" routerLinkActive="active" class="nav-link" href="4">Fornecedor</a>
+                    <li class="nav-meio" [ngClass]="{'active': activeNavItem === 'tabela-fornecedor'}">
+                      <a routerLink="/tabela-fornecedor" routerLinkActive="active" class="nav-link" href="4">Fornecedor</a>
                     </li>
-                    <li class="nav-fim p-10">
+                    <li class="nav-fim">
                         <a class="nav-link" href="5">Andamentos</a>
                     </li>
                 </ul>

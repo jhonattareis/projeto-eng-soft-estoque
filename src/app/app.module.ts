@@ -12,11 +12,13 @@ import { AppComponent } from './app.component';
 import { TelaCadastroComponent } from './tela-cadastro/tela-cadastro.component';
 import { TelaLoginComponent } from './tela-login/tela-login.component';
 import { NavbarEstoqueComponent } from './navbar-estoque/navbar-estoque.component';
-import { TabelaComponent } from './tabela/tabela.component';
 import { TelaProdutoComponent } from './tela-produto/tela-produto.component';
 import { TelaPedidoComponent } from './tela-pedido/tela-pedido.component';
 import { TelaFornecedorComponent } from './tela-fornecedor/tela-fornecedor.component';
 import { TelaUsuarioComponent } from './tela-usuario/tela-usuario.component';
+import { TabelaPedidoComponent } from './tabela-pedido/tabela-pedido.component';
+import { TabelaProdutoComponent } from './tabela-produto/tabela-produto.component';
+import { TabelaFornecedoresComponent } from './tabela-fornecedores/tabela-fornecedores.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { TelaUsuarioComponent } from './tela-usuario/tela-usuario.component';
     TelaCadastroComponent,
     TelaLoginComponent,
     NavbarEstoqueComponent,
-    TabelaComponent,
     TelaProdutoComponent,
     TelaPedidoComponent,
     TelaFornecedorComponent,
-    TelaUsuarioComponent
+    TelaUsuarioComponent,
+    TabelaPedidoComponent,
+    TabelaProdutoComponent,
+    TabelaFornecedoresComponent
   ],
   imports: [
     BrowserModule,

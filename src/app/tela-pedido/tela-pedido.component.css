@@ -20,13 +20,14 @@ input {
 }
 
 footer {
+  display: flex;
   background: #95c4d3;
-  padding: 50px 10px;
+  height: 43px;
+  width: 100%;
   border-top: solid gray;
   border-width: 2px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  align-content: end;
 }
 
 table {
@@ -50,10 +51,10 @@ table {
 .toolbar {
   color: black;
   background: #95c4d3;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 400;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   text-align: center;
@@ -79,6 +80,7 @@ table {
   display: inline-flex;
   float: right;
   margin-right: 40px;
+  margin-bottom: 20px;
 }
 
 .status {

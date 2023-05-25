@@ -1,0 +1,148 @@
+body {
+  border: solid black;
+  border-width: 2px;
+  border-radius: 10px;
+  background: #b8eeff;
+  height: auto;
+}
+
+label {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+footer {
+  padding: 50px 10px;
+  border-top: solid gray;
+  border-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-content: end;
+}
+
+table {
+  width: 100%;
+}
+
+input {
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.cont {
+  width: 90%;
+  height: 86%;
+  margin: auto;
+}
+
+.input-desc {
+  width: 44%;
+}
+
+.container-2 {
+  padding: 70px 100px;
+}
+
+.example-container {
+  height: 400px;
+  width: 800px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.m-10 {
+  margin-left: 10px;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #95c4d3;
+  font-weight: bold;
+  border: none;
+}
+
+table tr {
+  background: #b8eeff;
+  border: none;
+}
+
+table tr:hover {
+  background-color: #b8eeff;
+}
+
+table tr:nth-child(even) {
+  background-color: #95c4d3;
+}
+
+.span-p {
+  font-size: 30px;
+  margin-left: 7%;
+}
+
+.table {
+  margin-left: 7%;
+}
+
+.valorTotal {
+  font-weight: 500;
+  margin-left: 6%;
+}
+
+.valorToralspan {
+  font-size: 30px;
+}
+
+.filtro {
+  background: #95c4d3;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.col {
+  width: 460px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-filtro {
+  background: #b8eeff;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  width: 140px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.btn-filtro:hover {
+  background: #95c4d3;
+}
+
+.div-filtro {
+  display:flex;
+}
+
+.paginador {
+  display: flex;
+  justify-content: center;
+  background: #b8eeff;
+  border-top: 2px solid gray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 80px;
+  font-size: 20px;
+}
+
